@@ -1,0 +1,103 @@
+/* 
+	Footer
+ */
+
+footer {
+	padding: 3em;
+	background-color: #222222;
+	text-align: center;
+}
+h2.footer {
+	font-family: Dosis, sans-serif;
+	font-size: 30pt;
+	margin: 0;
+	margin-bottom: .5em;
+}
+h3.footer {
+	font-family: Dosis, sans-serif;
+	font-size: 20pt;
+	margin: 0;
+}
+h4.footer {
+	font-size: 16pt;
+	margin: 0;
+	padding: .5em;
+	text-align: center;
+}
+p.footer {
+	margin: 0 auto;
+	margin-bottom: 1em;
+	max-width: 30em;
+}
+#suggestion {
+	background-color: #5A7875;
+	text-align: center;
+	padding: 2em;
+}
+div#form {
+	max-width: 60em;
+	margin: 0 auto;
+	display: flex;
+}
+#left {
+	float: right;
+	width: 50%;
+	padding: 2em;
+}
+#right{
+	float: left;
+	width: 50%;
+	padding: 2em;
+	}
+form {
+	margin: 0 auto;
+}
+input, textarea {
+	padding: .5em;
+	font-family: Titillium Web, sans-serif;
+	resize: none;
+	border: none;
+}
+textarea{
+	width: 80%;
+	padding: 1em;
+	border-radius: .8em;
+}
+input.submit {
+	background-color: #313640;
+	color: white;
+	padding: .5em;
+	font-size: 16pt;
+	text-align: center;
+	margin: 0 auto;
+	margin: 1em;
+}
+input.submit:hover {
+	background-color: #F75D45;
+}
+#newsletter {
+	background-color: #313640;
+	padding: 3em;
+	text-align: center;
+}
+
+#newsletter a:hover {
+	color: #F75D45;
+}
+.footer {
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Titillium Web, sans-serif;
+	color: white;
+}
+#sun-earth {
+	width: 100%;
+	max-width: 300px;
+}
+footer a, #newsletter a {
+	color: white;
+}
+a:hover, a:focus {
+	color: #F75D45;
+}

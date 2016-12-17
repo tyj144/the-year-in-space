@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:400,300,600|Dosis:400,300,500|Titillium+Web:400,300,600&subset=latin,latin-ext);
+@font-face {
+	font-family: Lobster;
+	src: url(../fonts/Lobster.woff);
+}
+@font-face {
+	font-family: Dosis;
+	src: url(https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:400,300,600|Dosis:400,300,500|Titillium+Web:400,300,600&subset=latin,latin-ext);
+}
+@font-face {
+	font-family: Titillium Web;
+	src: url(../fonts/Titillium_Web.woff);
+}
+#year {
+	all: initial;
+	/* color: white; */
+	font-family: Dosis, sans-serif;
+	font-size: 20pt;
+}
+/* #year + h1 {
+	margin: -20px;
+} */
+#banner {
+	text-align: center;
+	width: 100%;
+	background-color: #DCE1E3;
+	/* background-color: #222222; */
+	/* background-image: url(../images/space-wallpaper.jpg); */
+	/* background-position: 0 60%; */
+}
+/* #wrapper {
+	margin-left: 8em;
+	margin-right: 8em;
+} */
+body {
+	font-family: Source Sans Pro, Tahoma, Geneva, sans-serif;
+	margin: 0;
+	background-color: #A2A5A6;
+}
+h1 {
+	text-align: center;
+	font-family: Lobster, Verdana, Geneva, sans-serif;
+	font-size: 60pt;
+	/* color: white; */
+	margin: 0;
+	padding: 0;
+	padding-bottom: .5em;
+}
+nav ul li a {
+	background-color: white;
+	color: black;
+}
+#wrapper {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+div.event {
+	position: relative;
+	height: 350px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 30% 30%;
+	display: inline-block;
+	-webkit-background-size: cover; 
+}
+h2.event-h {
+	font-family: "Titillium Web", Verdana, Geneva, sans-serif;
+	font-weight: 400;
+	color: white;
+	/* margin-left: 40px; */
+	max-width: 18em;
+	font-size: 22pt;
+	text-align: center;
+	background-repeat: no-repeat;
+	
+	padding: 1em;
+	
+	display: block;
+	margin: 0 auto;
+}
+p.date {
+	all: initial;
+	font-family: Dosis, Verdana, Geneva, sans-serif;
+	
+	display: block;
+	width: 10em;
+	/* border: 2px solid red; */
+	margin: 0 auto;
+	text-align: center;
+	background: none;
+	color: white;
+	font-size: 16pt;
+	font-weight: 300;
+}
+a.event-link {
+	text-decoration: none;	
+}
+div#dawn {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/dawn.jpg);
+}
+div#kelly-space {
+	background-image: url(../images/kelly-space.jpg);
+}
+div#philae {
+	background-position: 0 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/philae.jpg);
+}
+div#mars-vapor {
+	background-image: url(../images/mars-vapor.jpg);
+}
+div#new-horizons {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../images/new_horizons/new-horizons.jpg);
+}
+div#space-lettuce {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/space-lettuce.jpg);
+}
+
+div#blood-moon {
+	background-image: url(../images/blood-moon.jpg);
+}
+div#mars-water {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/mars-water.jpg);
+}
+div#nasa {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(../images/nasa-funding.jpg);
+}
+div#falcon9 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../images/falcon9.jpg);
+}
+nav ul {
+	display: hidden;
+	list-style-type: none;	/* clear underline */
+	margin: 0;
+	padding: 0;
+}
+
