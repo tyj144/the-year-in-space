@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Newsletter</title>
+		<link rel="stylesheet" href="styles/event.css">
+		<link rel="stylesheet" href="styles/footer.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="scripts/resizeHeader.js"></script>
+		<style>
+			h3 {
+				margin: 0 0 .25em 0;
+			}
+			.textbox {
+				border: 2px solid #555555;
+				border-radius: .5em;
+				margin-bottom: 1em;
+			}
+			div.info {
+				width: 50%;
+			}
+			#more-info {
+				width: 50%;
+			}
+		</style>
+		<script>
+			function checkAll(source) {
+				boxes = document.getElementsByName("option");
+				for (var i = 0; i < boxes.length; i++) {
+					boxes[i].checked = source.checked;
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+		<!-- <div id="skip"><a href="#main">Skip to main content</a></div> -->
+		<a href="index.html" id="back">Back</a>
+		<div id="banner">
+			<img src="images/icon.png" height="100" width="100" alt="Icon">
+			<h1>Newsletter</h1>
+			<p class="date">Stay in touch with all things space this year.</p>
+		</div> 
+		
+		<div id="space"></div>
+		
+		<main id="main">
+			<div id="sidebar">
+				<h3>Name</h3>
+				<input type="text" name="name" class="textbox">
+				<h3>E-mail</h3>
+				<input type="text" name="e-mail" class="textbox">
+				<h3>Confirm E-mail</h3>
+				<input type="text" name="confirm-e-mail" class="textbox">
+			
+				<br>
+				<p class="date"><b>Please which types of e-mails you would like to receive.</b></p>
+				<input type="checkbox" onClick="checkAll(this)">All e-mails<br>
+				<input type="checkbox" name="option" value="news">Updates on all breaking news in space<br>
+				<input type="checkbox" name="option" value="weekly">Weekly recaps on all things space<br>
+				<input type="checkbox" name="option" value="projects">Updates on new projects (e.g. upcoming projects)<br>
+				<input type="submit" class="submit">
+			</div>
+			<div class="info">
+				
+			</div>
+		</main>
+		<footer>
+			<h3 class="footer" id="2015">2015</h3>
+			<h2 class="footer">The Year in Space</h2>
+			<img src="images/sun-earth.gif" id="sun-earth" alt="Earth revolving around the Sun">
+			<p class="footer">
+				Tyler Jiang
+				<br><a href="mailto:tylerj81@gmail.com">tylerj81@gmail.com</a>
+				<br>Web Page Design
+				<br>Mrs. Mertins
+			</p>
+			<p class="footer">
+				A huge thanks to 
+				<a href="http://www.sciencealert.com/these-are-the-top-10-space-events-of-2015">
+				Science Alert</a> and
+				<a href="http://www.russianspaceweb.com/2015.html"> Russian Space Web</a>
+				for their own lists of major achievements in space in 2015. They were a huge
+				help in organizing this list.
+			</p>
+		</footer>
+	</body>
+</html>
